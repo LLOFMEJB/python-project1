@@ -1,16 +1,16 @@
 def calculate(a, b, c):
     if c == "+":
-        print(a+b)
+        return (a+b)
     elif c == "-":
-        print(a-b)
+        return (a-b)
     elif c == "/":
-        print(a/b)
+        return (a/b)
     elif c == "*":
-        print(a*b)
+        return (a*b)
     elif c == "%":
-        print(a%b)
+        return (a%b)
     elif c == "//":
-        print(a//b)
+        return (a//b)
     else:
-        print("Enter a valid operator!")
-calculate(21,3,"/")
+        return ("Enter a valid operator!")
+print(calculate(21,3,"/"))
