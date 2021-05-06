@@ -1,2 +1,3 @@
-çevirmen = lambda x : x[::-1] ("murtaza")
-print(çevirmen)
+sentence = "murtaza"
+çevirmen = lambda x : sentence[::-1]
+print(çevirmen(sentence))
